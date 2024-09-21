@@ -30,6 +30,7 @@ pipeline{
             steps{
                 echo "Deploying the code"
                 sh "docker-compose down && docker-compose up -d"
+                echo "Webhook-testing is under process. This is the last message to print."
             }
         }
     }
