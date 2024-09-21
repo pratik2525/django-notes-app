@@ -30,7 +30,7 @@ pipeline{
             steps{
                 echo "Deploying the code"
                 sh "docker-compose down && docker-compose up -d"
-                echo "Checkout from SCM is tested, Now Webhook is being tested - Test 5"
+                echo "Checkout from SCM is tested, Now Webhook is being tested - Test 6"
             }
         }
     }
